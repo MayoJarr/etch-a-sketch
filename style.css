@@ -75,3 +75,21 @@
     box-shadow: 0px 0px 5px 3px black;
     transition: .5s;
 }
+.reset{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.reset:hover{
+    box-shadow: 0px 0px 3px 3px black;
+}
+.reset:active{
+    background: #ddd;
+}
